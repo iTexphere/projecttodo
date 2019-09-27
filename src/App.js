@@ -10,7 +10,7 @@ import {connect} from 'react-redux'
         <div className="container">
             <NavBar/>
             {    
-              this.props.isLogin ? (<Login/>) :    <TodoApp/>
+              !this.props.isLogin ? (<Login/>) :    <TodoApp/>
             }
         </div>
       )
