@@ -1,0 +1,21 @@
+.add-todo {
+    padding : 10px;
+    margin :10px
+}
+
+.material-icons{
+    
+    display: inline-flex;
+    vertical-align: top;
+}
+
+.material-icons.color-black { color: rgba(0, 0, 0, 0.54); }
+
+.material-icons.color-green { color: green; }
+
+.color-red {background-color: red}
+.color-yellow {background-color: yellow}
+.color-orange {background-color:orange}
+.dropdown {
+    width: 300%
+}
