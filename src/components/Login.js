@@ -32,7 +32,7 @@ class Login extends Component {
     render() {
         return (
             <div className="container">
-                <p>Use chathura as username and efuture as password</p>
+                <p>Use chathura as username and efuture as password !!</p>
                 <div className="row">
                     <div className="col m6">
                         <h2 className="center-align">EFuture Login</h2>
